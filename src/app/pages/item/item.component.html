@@ -1,0 +1,51 @@
+<h1>Item <small>item name</small></h1>
+<hr>
+
+<div class="row text-right">
+    <div class="col">
+        <button class="btn btn-danger">
+            <i  routerLink="/items"
+                class="fa fa-arrow-left"> Back</i>
+        </button>
+    </div>
+</div>
+
+<div class="row animate__animated animate__fadeIn animate__faster">
+    <div class="col">
+        <form>
+            <div class="form-group">
+                <label>Firebase ID</label>
+                <input type="text"
+                       class="form-control"
+                       placeholder="0000000ID"
+                       disabled="disabled">
+                <small class="form-text text-muted">Auto generated field</small>
+            </div>
+
+            <div class="form-group">
+                <label>Name</label>
+                <input type="text"
+                       class="form-control"
+                       placeholder="Item name"
+                       required>
+            </div>
+
+            <div class="form-group">
+                <label>Description</label>
+                <input type="text"
+                       class="form-control"
+                       placeholder="Item description"
+                       required>
+            </div>
+
+            <div class="form-group">
+                <label>Activated</label>
+                <br>
+                <button class="btn btn-outline-success w-50" type="button">
+                    <i class="fa fa-smile-wink"></i>
+                    Activated
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
